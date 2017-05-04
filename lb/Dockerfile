@@ -1,2 +1,2 @@
-FROM 1science/nginx:consul
+FROM nginx:latest
 COPY config/nginx.conf /etc/nginx/nginx.conf
